@@ -278,8 +278,8 @@ for ex_human in human_list_path:
 
 image_blocks = gr.Blocks().queue()
 with image_blocks as demo:
-    gr.Markdown("## V7 - IDM-VTON 👕👔👚 improved by SECourses : 1-Click Installers Latest Version On : https://www.patreon.com/posts/103022942")
-    gr.Markdown("Virtual Try-on with your image and garment image. Check out the [source codes](https://github.com/yisol/IDM-VTON) and the [model](https://huggingface.co/yisol/IDM-VTON)")
+    gr.Markdown("## V7 - IDM-VTON 由匹夫改进：一键安装程序最新版本：https://ai.cenn.com")
+    gr.Markdown("使用您的图像和服装图像进行虚拟试穿 [开源地址](https://github.com/yisol/IDM-VTON) and the [模型地址](https://huggingface.co/yisol/IDM-VTON)")
     with gr.Row():
         with gr.Column():
             imgs = gr.ImageEditor(sources='upload', type="pil", label='Human. Mask with pen or use auto-masking', interactive=True)
